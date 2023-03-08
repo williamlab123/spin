@@ -1,32 +1,11 @@
-<!-- <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
-    
-    <title>Spin Wheel</title>
-  </head>
-  <body>
-    <button id="spin">Spin</button>
-    <span class="arrow"></span>
-    <div class="container">
-      <div class="one">1</div>
-      <div class="two">2</div>
-      <div class="three">3</div>
-      <div class="four">4</div>
-      <div class="five">5</div>
-      <div class="six">6</div>
-      <div class="seven">7</div>
-      <div class="eight">8</div>
-    </div>
-    <script src="./index.js"></script>
-  </body>
-</html> -->
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" type="text/css" href="./popup.css">
+    <script src="./popup.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     
@@ -45,7 +24,21 @@
       <div class="seven">Verdade</div>
       <div class="eight">Desafio</div>
     </div>
+
+         <!-- Conteúdo do pop-up -->
+    <div id="myModal" class="modal">
+
+     
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <label for="nome">Insira os nomes:</label>
+        <input type="text" id="nome" name="nome">
+      </div>
+  
+    </div>
+  
     <script src="./index.js"></script>
+    <script src="./popup.js"></script>
   </body>
 </html>
 
