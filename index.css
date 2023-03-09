@@ -13,6 +13,30 @@ body{
   overflow:hidden;
 }
 
+/* #myModal
+{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.modal-content
+{
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  padding-bottom: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+
 .container{
   width:500px;
   height:500px;
@@ -109,3 +133,61 @@ body{
   outline:none;
   letter-spacing: 1px;
 }  
+
+
+
+
+
+
+
+#add-participant {
+  margin-bottom: 20px;
+}
+
+#participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#participants-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#participants-list li button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#participants-title 
+{
+  position: fixed;
+  top: 0;
+  right: 8%;
+  padding: 20px;
+  color: #fff;
+
+
+}
+.participants-list {
+  position: fixed;
+  top: 70px;
+  right: 8%;
+  padding: 20px;
+  color: #fff;
+}
+
+
+
+
