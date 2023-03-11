@@ -146,6 +146,16 @@ const challenges =
   "De um selinho em todos do sexo oposto (ou do mesmo) da roda. Quem se recusar toma 1 dose",
   "De uma nota para a beleza de todos na roda(seja sincero(a))",
   "Escolha alguem que tenha se recusado a comprir um desafio e de um tapa na cara dela",
+  "Voce tem 15 segundos para beijar alguem",
+  "Escolha alguem da roda e explique em 10 segundos do porque voce nao ficaria com ela",
+  "Escolha alguem e faça uma posiçao sexual com ela",
+  "Pegue seu celular, entre no Instagram e mande uma mensagem para alguem que voce nao conhece",
+  "Fique de casal com alguem por 3 rodadas(isso quer dizer que nem voce nem seu parceiro(a) podem beijar outra pessoa). \
+   Voces devem ficar juntos, como um casal ficaria", 
+  "Escolha alguem e morda a bunda dessa pessoa",
+  "",
+
+
   
 
 
@@ -157,6 +167,7 @@ const challenges =
 
 const verdades = [
   "Quem você levaria dessa roda para uma ilha deserta?",
+  "Com quantas pessoas dessa roda voce ficaria? Caso a resposta seja 1, diga quem é e os que nao foram escolhidos devem beber uma dose",
   "Você já brigou na rua? Porque?",
   "Já ficou com o ex de uma amigo(a)?",
   "Você já foi suspenso da escola?",
@@ -174,7 +185,24 @@ const verdades = [
   "Qual o lugar mais inusitado que você já transou?",
   "Algemas, cordas ou vendas?",
   "Já transou em local público?",
-  "Já fez sexo anal?"
+  "Já fez sexo anal?",
+  "Transaria por dinheiro?",
+  "Ja achou que estava gravida ou que engravidou alguem?",
+  "Quantos foras voce ja tomou?",
+  "Ja chegou em alguem pessoalmente?",
+  "Ficaria com alguem do mesmo sexo por 10 mil reais?",
+  "Faria sexo dentro de um templo ou igreja?",
+  "Ja fez sexo com seus pais ou os pais dele(a) em casa?",
+  "Ja gozou na cara de alguem ou ja recebeu gozada na cara?",
+  "Sem camisinha é melhor?",
+  "Em local proibido é melhor?",
+  "Ficaria com alguem que namora ou é casado(a)?",
+  "Se sua chefe quisesse fazer sexo com voce, voce faria?",
+  "Se voce fosse um professor(a) universitario e um aluno(a) quisesse transar com voce, voce transaria?",
+  "Ja transou com alguem do tinder?",
+  "Ja fez sexo no cinema?",
+  "Ja foi pego transando?",
+
 ];
 
 
